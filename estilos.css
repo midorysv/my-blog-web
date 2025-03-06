@@ -1,29 +1,30 @@
 /* Estilos generales */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Cambria, Georgia;
   }
   
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #0e2556;
     padding: 10px 20px;
     color: white;
+    border: 3px inset #c795c5;
   }
   
   /* Estilos para el logo */
   .logo h1 {
-    margin: 0;
-    font-size: 24px;
+    margin: 35;
+    font-size: 20px;
   }
   
   /* Estilos para el menú */
   nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 5;
+    padding: 5px 40px 2px 2px;
     display: flex;
   }
   
@@ -39,5 +40,92 @@ body {
   }
   
   nav ul li a:hover {
-    color: #ff6347; /* Cambia el color al pasar el mouse */
+    color: #c795c5; /* Cambia el color al pasar el mouse */
   }
+
+  
+  /* Contenedor principal */
+  .contenedor {
+    display: flex;
+    flex-direction: column; /* Alinea las cajas verticalmente */
+    align-items: flex-start; /* Alinea las cajas a la izquierda */
+    padding: 10px 10px 20px 20px;p
+   
+    
+  }
+  
+  /* Estilos para las cajas */
+  .caja {
+    background-color: #c795c5; /* Color gris */
+    padding: 30px;
+    margin-bottom: 20px; /* Espacio entre las cajas */
+    width: 550px; /* Ancho fijo para las cajas */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 10 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border: 3px ridge #0e2556
+
+
+
+  }
+  
+  /* Estilos para los párrafos */
+  .caja p {
+    font-size: 16px;
+    line-height: 1.5; /* Espaciado entre líneas */
+    color: #333; /* Color del texto */
+   
+  }
+
+  /* Estilos generales */
+body {
+    margin: 0;
+    font-family: Abadi Extra Light;
+    background-color: #f4f4f4;
+  }
+  
+
+  /* Contenedor de la caja derecha */
+.contenedor-derecha {
+  background-color: #c795c5; /* Fondo gris */
+  width: 300px; /* Ancho de la caja */
+  padding: 20px;
+  position: absolute; /* Posición absoluta para flexibilidad */
+  top: 97px; /* Distancia desde el borde superior */
+  right: 10px; /* Distancia desde el borde derecho */
+  bottom: -280px;
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  border: 3px ridge #0e2556
+}
+  
+  /* Estilos para las tarjetas */
+  .tarjeta {
+    background-color: white; /* Fondo blanco para las tarjetas */
+    padding: 15px;
+    margin-bottom: 20px; /* Espacio entre tarjetas */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+   
+  }
+  .tarjeta:hover {
+    transform: translateY(-10px); /* Mueve la tarjeta 10px hacia arriba */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Sombra más grande */
+  
+  /* Estilos para los títulos de las tarjetas */
+  .tarjeta h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+    transform: translateY(-5px);
+
+  }
+  
+  /* Estilos para los párrafos de las tarjetas */
+  .tarjeta p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5; /* Espaciado entre líneas */
+  }
+
+
