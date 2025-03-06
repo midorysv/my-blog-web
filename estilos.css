@@ -50,8 +50,6 @@ body {
     flex-direction: column; /* Alinea las cajas verticalmente */
     align-items: flex-start; /* Alinea las cajas a la izquierda */
     padding: 10px 10px 20px 20px;p
-   
-    
   }
   
   /* Estilos para las cajas */
@@ -127,5 +125,4 @@ body {
     color: #666;
     line-height: 1.5; /* Espaciado entre líneas */
   }
-
 
